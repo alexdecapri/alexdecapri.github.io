@@ -13,13 +13,13 @@ body {
 }
 
 hr {
-    border-color: @theme-primary;
+    border-color: @theme-secondary;
     border-width: 3px;
     max-width: 50px;
 }
 
 hr.light {
-    border-color: white;
+    border-color: @theme-secondary;
 }
 
 a {
@@ -57,14 +57,18 @@ p {
   margin-top: 10px;
 }
 
-  @media (max-width: 768px) {
-    .skills {
-      height: 60px;
-    }
-    .skills-text {
-      font-size: 11px;
-    }
+@media (max-width: 768px) {
+  .skills {
+    height: 60px;
   }
+  .skills-text {
+    font-size: 11px;
+  }
+}
+
+i {
+  color: @theme-primary;
+}
 
 
 .bg-primary {
@@ -334,11 +338,11 @@ header {
 
 // Button Styles
 .btn-default {
-    .button-variant(@gray-darker;white;white);
+    .button-variant(white; @theme-secondary; @theme-secondary);
 }
 
 .btn-primary {
-    .button-variant(white;@theme-primary;@theme-primary);
+    .button-variant(white; @theme-primary; @theme-primary);
 }
 
 .btn {

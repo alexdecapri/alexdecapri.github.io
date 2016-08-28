@@ -12,12 +12,12 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
-  border-color: #007a87;
+  border-color: #ff5a5f;
   border-width: 3px;
   max-width: 50px;
 }
 hr.light {
-  border-color: white;
+  border-color: #ff5a5f;
 }
 a {
   -webkit-transition: all 0.35s;
@@ -57,6 +57,9 @@ p {
   .skills-text {
     font-size: 11px;
   }
+}
+i {
+  color: #007a87;
 }
 .bg-primary {
   background-color: #007a87;
@@ -304,9 +307,9 @@ header .header-content .header-content-inner p {
   padding-left: 0;
 }
 .btn-default {
-  color: #222222;
-  background-color: white;
-  border-color: white;
+  color: white;
+  background-color: #ff5a5f;
+  border-color: #ff5a5f;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -317,9 +320,9 @@ header .header-content .header-content-inner p {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  color: #222222;
-  background-color: #f2f2f2;
-  border-color: #ededed;
+  color: white;
+  background-color: #ff7478;
+  border-color: #ff7e82;
 }
 .btn-default:active,
 .btn-default.active,
@@ -344,12 +347,12 @@ fieldset[disabled] .btn-default:active,
 .btn-default.disabled.active,
 .btn-default[disabled].active,
 fieldset[disabled] .btn-default.active {
-  background-color: white;
-  border-color: white;
+  background-color: #ff5a5f;
+  border-color: #ff5a5f;
 }
 .btn-default .badge {
-  color: white;
-  background-color: #222222;
+  color: #ff5a5f;
+  background-color: white;
 }
 .btn-primary {
   color: white;
@@ -366,8 +369,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #00636e;
-  border-color: #005a63;
+  background-color: #0091a1;
+  border-color: #009aab;
 }
 .btn-primary:active,
 .btn-primary.active,
